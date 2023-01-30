@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:300,400|Oswald:400,700');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    background: radial-gradient(circle, rgba(255,220,235,1) 0%, rgb(148 187 233 / 40%) 100%) !important;
+    font-family: 'Lato', sans-serif;
+    padding: 30px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.slidecontainer {
+    margin-top: 10px;
+}
+
+.slider-range {
+    width: 100%;
+}
+
+.range-number {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3px;
+    margin-bottom: 15px;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#containerDiv{
+    border: solid 1px black;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 20px;
+}
+.card{
+    padding: 15px;
+    border: none !important;
+}
+
+.header{
+    border: 1px solid black;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    padding: 20px;
+}
+
+.mainCardContainer{
+    border: 1px solid black;
+    padding: 50px;
+}
+
+button{
+    width: 40px;
+    font-size: 24px;
+    background: black;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: transparent;
+    color: black;
+
+}
+input::file-selector-button{
+    background: black;
+    color: white;
+}
+
+input::file-selector-button:hover{
+    background: transparent;
+    color: black;
+}
+
+#imgchange{
+    width: 100%;    
+}
+
+button{
+    box-shadow: 5px 5px 10px #08080863;
+}
+
+.slidecontainer {
+    padding: 10px 70px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+.slidecontainer p{
+    margin: 0;
+}
+
+.imagechange{
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 14px;
+}
+
+
+/**************/
